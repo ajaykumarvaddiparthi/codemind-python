@@ -1,11 +1,11 @@
 n=int(input())
-s1=0
 num=n
+sum=0
 while n>0:
-    a=n%10
-    s1=s1*10+a
+    r=n%10
+    sum=sum*10+r
     n=n//10
-if num==s1:
+if num==sum:
     print("True")
 else:
     print("False")
