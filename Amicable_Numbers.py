@@ -1,14 +1,14 @@
 a=int(input())
 b=int(input())
-c=0
-d=0
+x=y=0
 for i in range(1,a):
     if a%i==0:
-        c+=i
+        x+=i
 for i in range(1,b):
     if b%i==0:
-        d+=i
-if c==b and d==a:
+        y+=i
+if b==x and a==y:
     print("Amicable")
 else:
     print("Not Amicable")
+        
